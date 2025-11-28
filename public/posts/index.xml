@@ -6,8 +6,15 @@
     <description>Recent content in Posts on My Personal Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Nov 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Terminal Theme Features Demo</title>
+      <link>http://localhost:1313/posts/terminal-theme-features-demo/</link>
+      <pubDate>Tue, 25 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/terminal-theme-features-demo/</guid>
+      <description>&lt;p&gt;This post demonstrates all the special features and styling options available in the Terminal Hugo theme.&lt;/p&gt;&#xA;&lt;h2 id=&#34;basic-text-formatting&#34;&gt;Basic Text Formatting&lt;/h2&gt;&#xA;&lt;p&gt;This is a regular paragraph with &lt;strong&gt;bold text&lt;/strong&gt;, &lt;em&gt;italic text&lt;/em&gt;, and &lt;em&gt;&lt;strong&gt;bold italic text&lt;/strong&gt;&lt;/em&gt;. You can also use &lt;del&gt;strikethrough&lt;/del&gt; text.&lt;/p&gt;&#xA;&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;&#xA;&lt;h1 id=&#34;h1-heading&#34;&gt;H1 Heading&lt;/h1&gt;&#xA;&lt;h2 id=&#34;h2-heading&#34;&gt;H2 Heading&lt;/h2&gt;&#xA;&lt;h3 id=&#34;h3-heading&#34;&gt;H3 Heading&lt;/h3&gt;&#xA;&lt;h4 id=&#34;h4-heading&#34;&gt;H4 Heading&lt;/h4&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;&#xA;&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;First item&lt;/li&gt;&#xA;&lt;li&gt;Second item&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Nested item 1&lt;/li&gt;&#xA;&lt;li&gt;Nested item 2&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;Third item&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h3&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;First step&lt;/li&gt;&#xA;&lt;li&gt;Second step&lt;/li&gt;&#xA;&lt;li&gt;Third step&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;&#xA;&lt;h3 id=&#34;inline-code&#34;&gt;Inline Code&lt;/h3&gt;&#xA;&lt;p&gt;Use &lt;code&gt;const variable = &amp;quot;value&amp;quot;&lt;/code&gt; for inline code snippets.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>My Journey from Electrical Engineering to Software Engineering</title>
       <link>http://localhost:1313/posts/my-journey-to-software-engineering/</link>

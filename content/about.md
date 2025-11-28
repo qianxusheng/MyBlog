@@ -9,7 +9,13 @@ author = "Xusheng Qian"
 [LinkedIn](https://www.linkedin.com/in/xusheng-qian/) | [GitHub](https://github.com/qianxusheng) | [LeetCode](https://leetcode.com/u/max6666/)
 
 I'm a graduate student pursuing a Master's degree in Information Science at the University of Pittsburgh, with a strong foundation in software engineering, machine learning, and full-stack development. My journey spans from electrical engineering to cutting-edge AI applications, driven by a passion for building impactful solutions.
-
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, Terminal Theme!");
+    }
+}
+```
 ---
 
 ## Education
