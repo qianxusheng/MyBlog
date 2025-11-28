@@ -1,0 +1,31 @@
+baseURL = "https://example.com/"
+languageCode = "zh-cn"
+title = "我的个人博客"
+# 告诉 Hugo 使用我们安装的 "terminal" 主题
+theme = "terminal"
+
+[params]
+  # 内容类型名称
+  contentTypeName = "posts"
+  # 主题颜色模式 ('light', 'dark', 'auto')
+  themeColor = "dark"
+  # 是否显示菜单项
+  showMenuItems = 2
+  # 是否使用全宽主题
+  fullWidthTheme = false
+  # 是否居中主题
+  centerTheme = true
+
+  [params.logo]
+    logoText = "我的博客"
+    logoHomeLink = "/"
+
+[[menu.main]]
+  name = "文章"
+  url = "/posts"
+  weight = 1
+
+[[menu.main]]
+  name = "关于"
+  url = "/about"
+  weight = 2
