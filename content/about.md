@@ -1,10 +1,12 @@
 +++
 title = "About Me"
 date = "2025-11-27"
-author = ""
+author = "Xusheng Qian"
 +++
 
 ## Hi, I'm Max
+
+[LinkedIn](https://www.linkedin.com/in/xusheng-qian/) | [GitHub](https://github.com/qianxusheng) | [LeetCode](https://leetcode.com/u/max6666/)
 
 I'm a graduate student pursuing a Master's degree in Information Science at the University of Pittsburgh, with a strong foundation in software engineering, machine learning, and full-stack development. My journey spans from electrical engineering to cutting-edge AI applications, driven by a passion for building impactful solutions.
 
@@ -133,3 +135,4 @@ I'm a graduate student pursuing a Master's degree in Information Science at the 
 ## Get in Touch
 
 Feel free to reach out to discuss technology, collaborate on projects, or just chat about software engineering and machine learning!
+

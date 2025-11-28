@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Architecture on My Personal Blog</title>
+    <link>http://localhost:1313/tags/architecture/</link>
+    <description>Recent content in Architecture on My Personal Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/architecture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Building Scalable Web Applications: Lessons Learned</title>
+      <link>http://localhost:1313/posts/building-scalable-web-applications/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-scalable-web-applications/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Over the past year, I&amp;rsquo;ve had the opportunity to build several production web applications, from a clinical research platform serving 200+ participants to an AI-moderated social forum. Here are some key lessons I&amp;rsquo;ve learned about building scalable, maintainable web applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-design-your-database-schema-carefully&#34;&gt;1. Design Your Database Schema Carefully&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important decisions you&amp;rsquo;ll make is your database schema design. I learned this while building Kiddit, where I designed a 3NF-normalized MySQL schema with 10+ tables.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

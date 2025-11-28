@@ -9,6 +9,7 @@ theme = "terminal"
   showMenuItems = 2
   fullWidthTheme = false
   centerTheme = true
+  readMore = "Read more"
 
   [params.logo]
     logoText = "My Terminal"

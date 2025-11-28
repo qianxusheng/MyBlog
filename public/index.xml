@@ -2,25 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My Personal Blog</title>
-    <link>http://localhost:60976/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on My Personal Blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Nov 2025 21:00:06 -0800</lastBuildDate>
-    <atom:link href="http://localhost:60976/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Hello World</title>
-      <link>http://localhost:60976/posts/hello-world/</link>
-      <pubDate>Thu, 27 Nov 2025 21:00:06 -0800</pubDate>
-      <guid>http://localhost:60976/posts/hello-world/</guid>
-      <description></description>
-    </item>
+    <lastBuildDate>Thu, 27 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About Me</title>
-      <link>http://localhost:60976/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 27 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:60976/about/</guid>
-      <description>&lt;h2 id=&#34;hi-im-max&#34;&gt;Hi, I&amp;rsquo;m Max&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a graduate student pursuing a Master&amp;rsquo;s degree in Information Science at the University of Pittsburgh, with a strong foundation in software engineering, machine learning, and full-stack development. My journey spans from electrical engineering to cutting-edge AI applications, driven by a passion for building impactful solutions.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;University of Pittsburgh&lt;/strong&gt; | Pittsburgh, PA&#xA;| &lt;em&gt;M.S. in Information Science&lt;/em&gt; | Jan 2025 - Dec 2026&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Relevant Coursework: Machine Learning, Information System Design and Analysis (SDLC), Information Storage and Retrieval&lt;/li&gt;&#xA;&lt;li&gt;Skills: Java, JavaScript, TypeScript, Spring Boot, React.js, Angular&lt;/li&gt;&#xA;&lt;li&gt;Focus: My current journey centers on software engineering with a strong emphasis on web development. I&amp;rsquo;m actively expanding my expertise in distributed systems and exploring frontier technologies like Large Language Models (LLMs), while continuously strengthening my foundation in machine learning principles.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Harbin University of Science and Technology&lt;/strong&gt; | Harbin, China&#xA;| &lt;em&gt;M.Eng. in Electrical &amp;amp; Computer Engineering&lt;/em&gt; | Sep 2021 - Jun 2024&lt;/p&gt;</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h2 id=&#34;hi-im-max&#34;&gt;Hi, I&amp;rsquo;m Max&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Connect:&lt;/strong&gt; &lt;a href=&#34;https://www.linkedin.com/in/xusheng-qian/&#34;&gt;LinkedIn&lt;/a&gt; | &lt;a href=&#34;https://github.com/qianxusheng&#34;&gt;GitHub&lt;/a&gt; | &lt;a href=&#34;https://leetcode.com/u/max6666/&#34;&gt;LeetCode&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m a graduate student pursuing a Master&amp;rsquo;s degree in Information Science at the University of Pittsburgh, with a strong foundation in software engineering, machine learning, and full-stack development. My journey spans from electrical engineering to cutting-edge AI applications, driven by a passion for building impactful solutions.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;education&#34;&gt;Education&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;University of Pittsburgh&lt;/strong&gt; | Pittsburgh, PA&#xA;| &lt;em&gt;M.S. in Information Science&lt;/em&gt; | Jan 2025 - Dec 2026&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>My Journey from Electrical Engineering to Software Engineering</title>
+      <link>http://localhost:1313/posts/my-journey-to-software-engineering/</link>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-journey-to-software-engineering/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;My path to software engineering wasn&amp;rsquo;t a straight line. I started with a degree in Electrical Engineering, focused on signal processing and communication theory. But somewhere along the way, I discovered my passion for building software systems that solve real-world problems.&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-beginning-electrical-engineering&#34;&gt;The Beginning: Electrical Engineering&lt;/h2&gt;&#xA;&lt;p&gt;During my undergraduate years at Shaoxing University, I learned the fundamentals of circuits, microcontrollers, and signal processing. Working with STM32 microcontrollers and building embedded systems gave me my first taste of programming.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Building Scalable Web Applications: Lessons Learned</title>
+      <link>http://localhost:1313/posts/building-scalable-web-applications/</link>
+      <pubDate>Sat, 15 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/building-scalable-web-applications/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Over the past year, I&amp;rsquo;ve had the opportunity to build several production web applications, from a clinical research platform serving 200+ participants to an AI-moderated social forum. Here are some key lessons I&amp;rsquo;ve learned about building scalable, maintainable web applications.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1-design-your-database-schema-carefully&#34;&gt;1. Design Your Database Schema Carefully&lt;/h2&gt;&#xA;&lt;p&gt;One of the most important decisions you&amp;rsquo;ll make is your database schema design. I learned this while building Kiddit, where I designed a 3NF-normalized MySQL schema with 10+ tables.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
