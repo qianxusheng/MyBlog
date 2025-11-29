@@ -1,4 +1,4 @@
-baseURL = "https://example.com/"
+baseURL = "https://d9jjkvcju0mol.cloudfront.net/"
 languageCode = "en-us"
 title = "My Personal Blog"
 theme = "terminal"

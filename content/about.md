@@ -142,3 +142,4 @@ public class HelloWorld {
 
 Feel free to reach out to discuss technology, collaborate on projects, or just chat about software engineering and machine learning!
 
+**Email:** [maxqianxs@gmail.com](mailto:maxqianxs@gmail.com)
