@@ -1,12 +1,19 @@
-baseURL = "https://d9jjkvcju0mol.cloudfront.net/"
+baseURL = "https://max-dev.blog/"
 languageCode = "en-us"
 title = "My Personal Blog"
 theme = "terminal"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      typographer = false
+
 [params]
   contentTypeName = "posts"
   themeColor = "dark"
-  showMenuItems = 2
+  showMenuItems = 3
   fullWidthTheme = false
   centerTheme = true
   readMore = "Read more"
@@ -21,6 +28,11 @@ theme = "terminal"
   weight = 1
 
 [[menu.main]]
+  name = "LeetCode"
+  url = "/leetcode"
+  weight = 2
+
+[[menu.main]]
   name = "About"
   url = "/about"
-  weight = 2
+  weight = 3
