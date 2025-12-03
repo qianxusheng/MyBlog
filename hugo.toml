@@ -13,7 +13,7 @@ theme = "terminal"
 [params]
   contentTypeName = "posts"
   themeColor = "dark"
-  showMenuItems = 3
+  showMenuItems = 4
   fullWidthTheme = false
   centerTheme = true
   readMore = "Read more"
@@ -33,6 +33,11 @@ theme = "terminal"
   weight = 2
 
 [[menu.main]]
+  name = "Courses"
+  url = "/courses"
+  weight = 3
+
+[[menu.main]]
   name = "About"
   url = "/about"
-  weight = 3
+  weight = 4
