@@ -32,6 +32,12 @@ IP address <-> hostnames;
 13 root name servers; 
 DNS Hierarchical: root -> top level domain -> authoritative
 
+Summary:
+1. application(chrome, safari), they both use HTTP!
+2. application layer protocol: HTTP
+3. Application is a software with two or more processes running in the end systems to send message over a network to accomplish some goal.
+4. socket API.
+
 --- 
 
 transport layer(host to host)
@@ -78,6 +84,12 @@ Congestion avoidance: move to additive increase.
 reducing CWND:
 timeout: cut CWND to 1 MSS(max segment size), go to slow start
 3 duplicate ACKs: cut CWND in half, go to congestion avoidance
+
+Sumary:
+1. contorl.
+2. reliability.
+
+---
 
 network layer(routing, best efforts host-to-host delivery)
 1. path-selection algorithms -> forwarding table
@@ -141,8 +153,129 @@ inter-AS(BGP, based on DV): inter-domain routing
 BGP: achieving policy via advertisements 
 - policy to enforce: if x does not want to route from B to C via x, so x will not advertise to B a route to C
 
-link layer(forwarding)
+ICMP: internet control message protocol(ping, traceroute)
 
+Service Level Agreements: legal agreement between customer and network operator, defines KPI(key performance indicators)
+
+Verizon SLAs example:
+- mean time to repair
+- availability
+- Jitter
+- latency
+- packet loss
+
+How network operators meet these SLAs?
+- routing alogrithm: policies
+- buffer management: congestion detection
+- queue scheduling: prioritization
+- fault detection
+- virtualization: QoS(quality of service) differentiation and traffic separation
+
+virtual network: like virtual machine sharing the same host resource.
+
+the advantanges of Virtual network:
+- cost
+- security
+- flexibility
+
+three types of VN technology
+- VLAN 
+- MPLS(multi-protocol label switching)
+- SDN (data center)
+
+MPLS: different QoS to different service classes
+LSR: label swithing router
+FEC: forwarding equivalence class(a subnet of packets that are treated in the same way by LSR)
+LSP: label-switched path
+How it works?
+MPLS header encoded with FEC is inserted to a packet before packet is forwareded. Inner label tells you who you are, outer label tells you where to go.
+
+data center ->(SDN as control plane instead of implementing control plane inside the every single routers)
+
+network management:
+- fault 
+- configuration
+- accouting
+- performance
+- security
+
+SDN: 
+- control plane: software(network apps + network OS)
+- data plane: hardware(switches)
+generalized forwarding: match + action
+OpenFlow: controller-to-switch messages
+
+network management components:
+SNMP（simple network management protocol
+CLI: command line interface
+NETCONFIG/YANG:
+
+Summary:
+1. routing(BGP, OSPF).
+2. Virtual network(MPLS, provide different QoS).
+3. data center network(network management, SDN).
+4. SLAs(network KPIs).
+
+---
+
+
+link layer(forwarding): node-link-node
+links: wired, wireless
+hosts, routers: nodes
+frame: encapsulates datagram
+analogy: you may take plane, train, taxi to your destination.
+services:
+- framing
+- reliable delivery(error control, ARQ): seldom used on wired links, wireless links have high error rate
+- half-duplex/full-duplex
+- error detection
+- error correction
+- flow control
+
+host link-layer implementation:
+NIC(network interface card): a chip
+error control: 
+1. error detection + automatic repeat request(ARQ)
+2. forward error correction(FEC)
+error control coding(add Redundancy): parity checking, checksum
+
+multiple access channal(MAC) protocol, three broad classes:
+- partitioning(TDMA, FDMA): inactive channel, waste
+- random access(ALOHA, slotted ALOHA): allow collisions
+- taking turns(polling)
+
+slotted ALOHA:
+assumptions: same size frames, time divided into equal size slots, and nodes are synchronized
+if collision, retransmit frame with probability p(randomization).
+
+CSMA(carrier sense multiple access):
+if channel sensed idle, transmit.
+if channel sensed busy, defer transimition.
+
+CSMA/CD(generic idea): CSMA withcollision detection
+
+Ethernet CSMA/CD algorithm: implementation, binary exponential backoff
+
+taking turns protocols:
+1.polling(bluetooth): centralized controller invites other nodes to transmit
+2.token passing(token ring): pass control token message to the next one
+
+MAC address
+ARP(address resolution protocol): find MAC address for certain IP
+1.addressing within subnet: broadcast and target MAC replies
+2.routing to another subnet: link layer <-> network layer
+
+Ethernet frame: MAC src and dest, and data and CRC.
+Ethernet(wired LAN) bus -> switched: Ethernet protocol, switch, MAC address
+Switch: forwarding, link layer device, self-learning(broadcast)
+MST: Sometimes we add addtional link to provide redundant connections to prevent potential problems, this loop could lead to infinite loop(no TTL in frame), so we need use MST to prevent this.
+institutional netowrk: switched LANs, Ethernet, MST
+
+Summary:
+1. node, Link.
+2. error detection, correction; multiple access(sharing a broadcast channel); link layer addressing(ARP)
+3. institutional network: MST, Switched LANs, Ethernet
+4. ethernet frame
 
 Physical layer
 - wire
