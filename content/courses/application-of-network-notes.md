@@ -451,9 +451,62 @@ data center network protocol innovation
 AIOPs: AI for network operations
 
 **Wireless network**
+Typically used in access network(first hop is wireless)
 
+topologies:
+1. infra based: wireless to wired network
+2. ad hoc based: single hop, family network
+3. multi-hop: military communication network
 
-**Security**
+elements of wireless network:
+1. base station
+2. infra mode(wired network, handoff(mobile change stations))
+3. wireless link(mobile)
+
+wireless chacacteristic:
+1. multipath
+2. noise
+3. mobility
+4. hidden terminal
+
+coverage:
+1. Interference to/from other transmitters
+2. number of access points that are required to provide service in a space
+
+Link budget: theorotical analysis
+
+adaptive modulation and coding(AMC): maximum data rates and quality
+
+`WLAN 802.11: different link layer and physical layer protocol stack structure`
+
+elements of WLAN:
+1. access point(AP)
+2. basic service set(BSS)
+3. basic service area(BSA, cell)
+
+WLAN topology: star, AP is the hub
+
+WLAN protocol stack: different from wired network
+
+WLAN mechanism:
+1. IFS: DIFS, SIFS(ACK)
+2. RTS/CTS(hidden terminal)
+
+different frames
+beacon(association for new devices)
+handoff(passive and active scanning)
+power management
+WLAN security
+
+`Cellular network: 4g and 5g`
+
+sleep mode
+
+multi-access: OFDMA, time and freqency multiplexing
+
+resource blocks: based on OFDMA
+
+WPAN wireless personalized area network: bluetooth
 
 ---
 
