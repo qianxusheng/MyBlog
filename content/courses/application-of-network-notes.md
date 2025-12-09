@@ -431,12 +431,16 @@ WDM
 
 ---
 
-## Other Topics
+## `Other Topics`
+
+--- 
 
 **Network performance**:
 - delay
 - loss
 - throughput
+
+--- 
 
 **Data center network**
 1. outward facing: north-south traffic.
@@ -449,6 +453,8 @@ Components and costs:
 multi-vms in a physical machine: vSwitch to manage the traffic
 data center network protocol innovation
 AIOPs: AI for network operations
+
+--- 
 
 **Wireless network**
 Typically used in access network(first hop is wireless)
@@ -493,14 +499,18 @@ WLAN mechanism:
 2. RTS/CTS(hidden terminal)
 
 different frames
+
 beacon(association for new devices)
+
 handoff(passive and active scanning)
+
 power management
+
 WLAN security
 
 `Cellular network: 4g and 5g`
 
-sleep mode
+sleep mode: mobile device has sleep mode to save energy
 
 multi-access: OFDMA, time and freqency multiplexing
 
