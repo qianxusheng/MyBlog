@@ -1,6 +1,7 @@
 ---
 title: "Deploying Full-Stack Applications on AWS: A Practical Guide"
 date: 2025-12-12
+author: "Max"
 description: "Learn how to deploy a full-stack application on AWS using EC2, S3, Nginx, and GitHub Actions for CI/CD automation"
 tags: ["AWS", "DevOps", "Deployment", "EC2", "S3", "CI/CD", "Nginx"]
 ---
